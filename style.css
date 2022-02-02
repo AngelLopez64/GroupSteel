@@ -1,0 +1,278 @@
+/*  import google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background: black;
+}
+
+
+
+/* Logo Principal */
+
+.logo{
+    text-align: center;
+    padding: 10px;
+    font-family: 'Gothic A1', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo a{
+    color: orange;
+    font-size:  70px;
+    font-weight: 600;
+}
+.logo a span{
+    color: rgb(255, 255, 255);
+    transition: all 0.3s ease;
+}
+
+.logo h3{
+    color: white;
+    font-size: 30px;
+    padding: 7px;
+}
+
+.contenedorr {
+	font-family: 'Montserrat Alternates', sans-serif;
+	display: flex;
+	width: 515px;
+	height:40px;
+	color: #fff;
+	font-size: 30px;
+	line-height: 40px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	margin:auto;
+	overflow: hidden;
+	}
+	
+	ul.text {
+	 list-style: none;
+	 padding-left: 15px;
+	 animation: cambiar 5s infinite;
+	}
+	
+	ul.text {
+	 margin: 0;
+	}
+ 
+ @keyframes  cambiar {
+  
+	0%{ margin-top: 0;}
+   20%{ margin-top: 0;}
+   
+   25% { margin-top: 0PX;}
+   50% { margin-top: 0PX;}
+   
+   55% { margin-top: -40PX;}
+   80% { margin-top: -40PX;}
+   
+   85% { margin-top: -40PX;}
+   95% { margin-top: -40PX;}
+   
+  100% { margin-top: 0;}
+  
+ }
+
+/* Fin Logo Principal */
+
+.max-width{
+    max-width: 100%;
+    height: 44px;
+    margin: auto;
+    background: orange;
+}
+
+/* navbar styling */
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    font-family: 'Gothic A1', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    transition: all 0.3s ease;
+    background: url(/images/fondoL1.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    top: 0px;
+}
+.navbar.sticky{
+    background: url(/images/fondoL1.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar.sticky .logo a span{
+    color: rgb(255, 255, 255);
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a{
+    display: block;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 20px;
+    transition: color 0.3s ease;
+}
+.navbar .menu li a:hover{
+    color: rgb(255, 255, 255);
+}
+.navbar.sticky .menu li a:hover{
+    color: #fff;
+}
+
+/* menu btn styling */
+.menu-btn{
+    color: #fff;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+}
+.scroll-up-btn{
+    position: fixed;
+    height: 45px;
+    width: 42px;
+    background: orange;
+    right: 30px;
+    bottom: 10px;
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    z-index: 9999;
+    font-size: 30px;
+    border-radius: 6px;
+    border-bottom-width: 2px;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+.scroll-up-btn.show{
+    bottom: 30px;
+    opacity: 1;
+    pointer-events: auto;
+}
+.scroll-up-btn:hover{
+    filter: brightness(90%);
+}
+
+.slider-frame {
+	width: 30%;
+    height: auto;
+	margin: 270px auto 0;
+	overflow: hidden;
+}
+
+.slider-frame ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: slide 20s infinite alternate ease-in-out;
+}
+
+.slider-frame li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider-frame img {
+	width: 100%;
+}
+
+@keyframes slide {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+/* responsive media query start */
+@media (max-width: 1104px) {
+    .about .about-content .left img{
+        height: 350px;
+        width: 350px;
+    }
+}
+@media (max-width: 1024px) {
+    .max-width{
+        padding: 0 50px;
+    }
+}
+@media (max-width: 768px){
+    
+    .logo a{
+        font-size:50px;
+    }
+
+    .contenedorr{
+        font-size: 17px;
+        width: 289px;
+    }
+    
+    .menu-btn{
+        display: block;
+        z-index: 999;
+    }
+
+    .menu-btn i.active:before{
+        content: "\f00d";
+    }
+
+    .navbar .menu{
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        left: -100%;
+        top: 0;
+        background: rgb(39, 39, 39);
+        text-align: center;
+        padding-top: 30px;
+        transition: all 0.3s ease;
+    }
+
+    .navbar .menu.active{
+        left: 0;
+    }
+
+    .navbar .menu li{
+        display: block;
+    }
+
+    .navbar .menu li a{
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 25px;
+    }
+
+    .max-width{
+        max-width: 100%;
+    }
+
+    .slider-frame {
+        width: 70%;
+    }
+}
