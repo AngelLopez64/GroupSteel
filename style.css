@@ -176,26 +176,30 @@ body{
 /* Caratula */
 
 .card{
-    width: 90%;
+    width: 80%;
     border-radius: 6px;
     overflow: hidden;
     background: rgb(65, 64, 64);
     border: 1px solid gray;
     max-height: 800px;
     margin: 260px 0px;
-    margin-left: 5%;
+    margin-left: 10%;
 }
 
 .card h2{
     color: white;
-    margin: 10px;
+    margin: 30px 30px;
+    font-family: 'Gothic A1', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    line-height: 1.5;
 }
 
 .slider-frame {
     float: left;
 	width: 30%;
     height: auto;
-	margin: 10px 10px;
+	margin: 30px 30px;
 	overflow: hidden;
 }
 
@@ -216,9 +220,6 @@ body{
 	width: 100%;
 }
 
-
-/* Fin Caratula */
-
 @keyframes slide {
 	0% {margin-left: 0;}
 	20% {margin-left: 0;}
@@ -232,6 +233,9 @@ body{
 	75% {margin-left: -300%;}
 	100% {margin-left: -300%;}
 }
+
+/* Fin Caratula */
+
 
 /* responsive media query start */
 @media (max-width: 1104px) {
