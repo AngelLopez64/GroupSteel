@@ -172,10 +172,30 @@ body{
     filter: brightness(90%);
 }
 
+
+/* Caratula */
+
+.card{
+    width: 90%;
+    border-radius: 6px;
+    overflow: hidden;
+    background: rgb(65, 64, 64);
+    border: 1px solid gray;
+    max-height: 800px;
+    margin: 260px 0px;
+    margin-left: 5%;
+}
+
+.card h2{
+    color: white;
+    margin: 10px;
+}
+
 .slider-frame {
+    float: left;
 	width: 30%;
     height: auto;
-	margin: 270px auto 0;
+	margin: 10px 10px;
 	overflow: hidden;
 }
 
@@ -195,6 +215,9 @@ body{
 .slider-frame img {
 	width: 100%;
 }
+
+
+/* Fin Caratula */
 
 @keyframes slide {
 	0% {margin-left: 0;}
@@ -272,7 +295,4 @@ body{
         max-width: 100%;
     }
 
-    .slider-frame {
-        width: 70%;
-    }
 }
