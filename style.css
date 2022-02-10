@@ -8,7 +8,7 @@
 }
 
 body{
-    background: url(/imagess/fondo.jpg);
+    background: url("./imagess/fondo.jpg");
     background-size: 100% 100%;
     background-attachment: fixed;
 }
