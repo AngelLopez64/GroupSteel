@@ -42,20 +42,11 @@ window.addEventListener('load', function(){
 			next: '.carousel__siguiente'
 		},
 		responsive: [
-			{
-			  
-			  breakpoint: 450,
+			{ 
+			  breakpoint: 1980,
 			  settings: {
-				
 				slidesToShow: 1,
 				slidesToScroll: 1
-			  }
-			},{
-			  
-			  breakpoint: 1680,
-			  settings: {
-				slidesToShow: 2,
-				slidesToScroll: 2
 			  }
 			}
 		]
