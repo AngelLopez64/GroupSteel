@@ -130,12 +130,13 @@ body{
     color: white;
 }
 .navbar.sticky .menu li a:hover{
-    color: #fff;
+    color: white;
 }
 
 .menu-btn{
-    color: #fff;
+    color: white;
     font-size: 23px;
+    padding: 20px;
     cursor: pointer;
     display: none;
 }
@@ -433,10 +434,18 @@ footer span a:hover{
     border: 3px solid orange;
 }
 
-.carousel__elemento p{
+.carousel__elemento a{
     color: white;
-    padding: 20px;
+    padding: 10px;
     font-size: 25px;
+    border: 1px solid orange;
+	border-radius: 4px;
+	transition: all 400ms ease;
+    display: inline-block;
+}
+
+.carousel__elemento a:hover{
+    background: orange;
 }
 
 .carousel__anterior,
@@ -620,6 +629,18 @@ footer span a:hover{
 
     .slider-frame ul{
         width: 400%;
+    }
+
+    .navbar .menu li a{
+        color: white;
+    }
+
+    .navbar .menu li a:hover{
+        color: orange;
+    }
+
+    .navbar .max-width{
+        justify-content: left;
     }
 }
 
