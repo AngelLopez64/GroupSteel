@@ -334,11 +334,11 @@ body{
 }
 
 .razonN:hover{
-    background: rgb(65, 84, 84);;
+    background: rgb(65, 64, 64);
 }
 
 .razonN1:hover{
-    background: rgb(65, 64, 64);;
+    background: rgb(65, 64, 64);
 }
 
 .razonN{
@@ -346,7 +346,7 @@ body{
     height: 350px;
     border-radius: 6px;
     overflow: hidden;
-    border: 1px solid gray;
+    border: 1px solid orange;
     text-align: center;
     margin-left: 5%;
     display: inline-block;
@@ -358,7 +358,7 @@ body{
     height: 430px;
     border-radius: 6px;
     overflow: hidden;
-    border: 1px solid gray;
+    border: 1px solid orange;
     text-align: center;
     margin-left: 5%;
     display: inline-block;
@@ -535,6 +535,10 @@ footer span a:hover{
         height: 590px;
     }
 
+    .carousel__elemento img{
+        width: 100%;
+    }
+
 }
 
 @media (max-width: 580px){
@@ -617,7 +621,6 @@ footer span a:hover{
     .slider-frame ul{
         width: 400%;
     }
-
 }
 
 /* Fin Resoluciones */
