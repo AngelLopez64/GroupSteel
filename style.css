@@ -1,5 +1,12 @@
-/*  import google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+:root{
+    --colorP: orange;
+    --colorS: black;
+    --Griss: rgb(65, 64, 64);
+    --Letras: white;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -9,7 +16,7 @@
 
 body{
     background: url("./imagess/fondo.jpg");
-    background-size: 100% 100%;
+    background-size: 100% 105%;
     background-attachment: fixed;
 }
 
@@ -23,22 +30,18 @@ body{
 }
 
 .logo a{
-    color: orange;
+    color: var(--colorP);
     font-size:  70px;
     font-weight: 600;
 }
 
-.logo a:hover{
-    text-decoration:line-through gray;
-}
-
 .logo a span{
-    color: rgb(255, 255, 255);
+    color: var(--Letras);
     transition: all 0.3s ease;
 }
 
 .logo h3{
-    color: white;
+    color: var(--Letras);
     font-size: 30px;
     padding: 7px;
 }
@@ -46,9 +49,9 @@ body{
 .contenedorr {
 	font-family: 'Montserrat Alternates', sans-serif;
 	display: flex;
-	width: 515px;
+	width: 500px;
 	height:40px;
-	color: #fff;
+	color: var(--Letras);
 	font-size: 30px;
 	line-height: 40px;
 	margin:auto;
@@ -57,7 +60,6 @@ body{
 	
 	ul.text {
 	 list-style: none;
-	 padding-left: 15px;
 	 animation: cambiar 5s infinite;
      margin: 0;
 	}
@@ -105,14 +107,14 @@ body{
 .navbar .max-width{
     max-width: 100%;
     height: 44px;
-    background: orange;
+    background: var(--colorP);
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .navbar.sticky .logo a span{
-    color: white;
+    color: var(--Letras);
 }
 .navbar .menu li{
     list-style: none;
@@ -120,21 +122,21 @@ body{
 }
 .navbar .menu li a{
     display: block;
-    color: black;
+    color: var(--colorS);
     font-size: 18px;
     font-weight: 500;
     margin-left: 20px;
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: white;
+    color: var(--Letras);
 }
 .navbar.sticky .menu li a:hover{
-    color: white;
+    color: var(--Letras);
 }
 
 .menu-btn{
-    color: white;
+    color: var(--Letras);
     font-size: 23px;
     padding: 20px;
     cursor: pointer;
@@ -150,12 +152,12 @@ body{
     position: fixed;
     height: 45px;
     width: 42px;
-    background: orange;
+    background: var(--colorP);
     right: 30px;
     bottom: 10px;
     text-align: center;
     line-height: 45px;
-    color: black;
+    color: var(--colorS);
     z-index: 9999;
     font-size: 30px;
     border-radius: 6px;
@@ -183,8 +185,8 @@ body{
     width: 80%;
     border-radius: 6px;
     overflow: hidden;
-    background: rgb(65, 65, 65);
-    border: 1px solid gray;
+    background: var(--Griss);
+    border: 1px solid var(--colorP);
     max-height: auto;
     margin-top: 270px;
     margin-left: 10%;
@@ -192,7 +194,7 @@ body{
 
 .card h4{
     font-size: 35px;
-    color: white;
+    color: var(--Letras);
     font-family: 'Gothic A1', sans-serif;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
@@ -201,7 +203,7 @@ body{
 }
 
 .card p{
-    color: white;
+    color: var(--Letras);
     margin: 30px 30px;
     font-family: 'Gothic A1', sans-serif;
     font-family: 'Montserrat', sans-serif;
@@ -233,6 +235,7 @@ body{
 .slider-frame img {
 	width: auto;
     height: 550px;
+    border: 1px solid var(--colorP);
 }
 
 @keyframes slide {
@@ -261,7 +264,7 @@ body{
 }
 
 .fs p{
-    color: white;
+    color: var(--Letras);
     font-size: 25px;
     font-family: 'Gothic A1', sans-serif;
     font-family: 'Montserrat', sans-serif;
@@ -269,7 +272,7 @@ body{
 }
 
 .fs span{
-    color: orange;
+    color: var(--colorP);
     font-size: 35px;
 }
 
@@ -283,7 +286,7 @@ body{
 }
 
 .razones h2{
-    color: white;
+    color: var(--Letras);
     text-align: center;
     font-size: 30px;
     margin-top: 50px;
@@ -296,7 +299,7 @@ body{
 
 .razones h4{
     font-size: 20px;
-    color: white;
+    color: var(--Letras);
     font-family: 'Gothic A1', sans-serif;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
@@ -304,7 +307,7 @@ body{
 }
 
 .razones p{
-    color: white;
+    color: var(--Letras);
     margin: 15px 15px;
     font-family: 'Gothic A1', sans-serif;
     font-family: 'Montserrat', sans-serif;
@@ -317,29 +320,29 @@ body{
     height: 350px;
     border-radius: 6px;
     overflow: hidden;
-    border: 1px solid gray;
+    border: 1px solid var(--colorP);
     text-align: center;
     margin-left: 10%;
     display: inline-block;
     margin-top: 50px;
-    background: rgb(65, 64, 64);
+    background: var(--Griss);
 }
 
 .razonesN h4{
     padding: 20px;
-    color: orange;
-	border: 1px solid orange;
+    color: var(--colorP);
+	border: 1px solid var(--colorP);
 	border-radius: 4px;
 	transition: all 400ms ease;
     display: inline-block;
 }
 
 .razonN:hover{
-    background: rgb(65, 64, 64);
+    background: var(--Griss);
 }
 
 .razonN1:hover{
-    background: rgb(65, 64, 64);
+    background: var(--Griss);
 }
 
 .razonN{
@@ -347,7 +350,7 @@ body{
     height: 350px;
     border-radius: 6px;
     overflow: hidden;
-    border: 1px solid orange;
+    border: 1px solid var(--colorP);
     text-align: center;
     margin-left: 5%;
     display: inline-block;
@@ -359,7 +362,7 @@ body{
     height: 430px;
     border-radius: 6px;
     overflow: hidden;
-    border: 1px solid orange;
+    border: 1px solid var(--colorP);
     text-align: center;
     margin-left: 5%;
     display: inline-block;
@@ -389,12 +392,12 @@ body{
 footer{
     background: #111;
     padding: 15px;
-    color: #fff;
+    color: var(--Letras);
     text-align: center;
     margin-top: 10px;
 }
 footer span a{
-    color: orange;
+    color: var(--colorP);
     text-decoration: none;
 }
 footer span a:hover{
@@ -415,7 +418,7 @@ footer span a:hover{
 }
 
 .contenedor h4{
-    color: white;
+    color: var(--Letras);
     text-align: center;
     font-size: 30px;
     margin-bottom: 50px;
@@ -431,21 +434,21 @@ footer span a:hover{
 
 .carousel__elemento img{
     width: 70%;
-    border: 3px solid orange;
+    border: 3px solid var(--colorP);
 }
 
 .carousel__elemento a{
-    color: white;
+    color: var(--Letras);
     padding: 10px;
     font-size: 25px;
-    border: 1px solid orange;
+    border: 1px solid var(--colorP);
 	border-radius: 4px;
 	transition: all 400ms ease;
     display: inline-block;
 }
 
 .carousel__elemento a:hover{
-    background: orange;
+    background: var(--colorP);
 }
 
 .carousel__anterior,
@@ -459,7 +462,7 @@ footer span a:hover{
 	cursor: pointer;
 	line-height: 30px;
 	background: none;
-	color: #fff;
+	color: var(--Letras);
 	opacity: 20%;
 }
 
@@ -484,7 +487,7 @@ footer span a:hover{
 	display: block;
 	width: 30px;
 	height: 4px;
-	background: #fff;
+	background: var(--Letras);
 	opacity: .2;
 	border-radius: 0;
 }
@@ -632,11 +635,11 @@ footer span a:hover{
     }
 
     .navbar .menu li a{
-        color: white;
+        color: var(--Letras);
     }
 
     .navbar .menu li a:hover{
-        color: orange;
+        color: var(--colorP);
     }
 
     .navbar .max-width{
