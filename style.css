@@ -3,7 +3,6 @@
 :root{
     --colorP: orange;
     --colorS: black;
-    --Griss: rgb(65, 64, 64);
     --Letras: white;
 }
 
@@ -49,7 +48,7 @@ body{
 .contenedorr {
 	font-family: 'Montserrat Alternates', sans-serif;
 	display: flex;
-	width: 500px;
+	width: 515px;
 	height:40px;
 	color: var(--Letras);
 	font-size: 30px;
@@ -185,7 +184,7 @@ body{
     width: 80%;
     border-radius: 6px;
     overflow: hidden;
-    background: var(--Griss);
+    background: var(--colorS);
     border: 1px solid var(--colorP);
     max-height: auto;
     margin-top: 270px;
@@ -325,7 +324,7 @@ body{
     margin-left: 10%;
     display: inline-block;
     margin-top: 50px;
-    background: var(--Griss);
+    background: var(--colorS);
 }
 
 .razonesN h4{
@@ -338,11 +337,11 @@ body{
 }
 
 .razonN:hover{
-    background: var(--Griss);
+    background: var(--colorS);
 }
 
 .razonN1:hover{
-    background: var(--Griss);
+    background: var(--colorS);
 }
 
 .razonN{
