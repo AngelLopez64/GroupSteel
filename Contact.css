@@ -26,13 +26,13 @@
 
 .list-item {
   line-height: 4;
-  color: #aaa;
+  color: var(--colorP);
   height: 60px;
 }
 
 .contact-text {
   letter-spacing: 1.9px;
-  color: #bbb;
+  color: var(--Letras);
   font: 300 20px 'Lato', sans-serif;
   font-size: 25px;
 }
@@ -50,13 +50,13 @@
 }
 
 .contact-text a {
-  color: #bbb;
+  color: var(--Letras);
   text-decoration: none;
   transition-duration: 0.2s;
 }
 
 .contact-text a:hover {
-  color: #fff;
+  color: var(--colorP);
   text-decoration: none;
 }
 
@@ -84,31 +84,11 @@
   color: var(--Letras);
   background-color: var(--colorS);
   cursor: pointer; 
-  transition: all .2s ease-in-out;
-}
-
-.social-media-list li:after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 60px;
-  height: 60px;
-  line-height: 60px;
-  border-radius: 50%;
-  opacity: 0;
-  box-shadow: 0 0 0 1px #fff;
-  transition: all .2s ease-in-out;
+  transition: all 200ms ease-in-out;
 }
 
 .social-media-list li:hover {
-  background-color: #fff; 
-}
-
-.social-media-list li:hover:after {
-  opacity: 1;  
-  transform: scale(1.12);
-  transition-timing-function: cubic-bezier(0.37,0.74,0.15,1.65);
+  background: var(--Letras);
 }
 
 .social-media-list li:hover a {
@@ -116,7 +96,7 @@
 }
 
 hr {
-  border-color: rgba(255,255,255,.6);
+  border-color: var(--colorP);
 }
 
 footer{
