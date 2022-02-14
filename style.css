@@ -30,13 +30,18 @@ body{
 
 .logo a{
     color: var(--colorP);
-    font-size:  70px;
+    font-size:  60px;
     font-weight: 600;
 }
 
 .logo a span{
     color: var(--Letras);
     transition: all 0.3s ease;
+}
+
+.logo a span.G{
+    color: var(--colorP);
+    font-size: 80px;
 }
 
 .logo h3{
@@ -555,7 +560,11 @@ footer span a:hover{
 @media (max-width: 580px){
     
     .logo a{
-        font-size:50px;
+        font-size:45px;
+    }
+
+    .logo a span.G{
+        font-size: 75px;
     }
 
     .contenedorr{
@@ -618,7 +627,7 @@ footer span a:hover{
         width: 90%;
         margin-left: 5%;
         margin: auto;
-        margin-top: 220px;
+        margin-top: 250px;
     }
 
     .card p{
