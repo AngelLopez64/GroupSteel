@@ -63,9 +63,3 @@ footer{
     border-radius: 2px;
     cursor: pointer;
 }
-
-@media (max-width: 580px){
-    footer{
-        position: static;
-    }
-}
