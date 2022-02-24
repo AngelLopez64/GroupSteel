@@ -2,6 +2,7 @@
   max-width: 400px;
   margin: auto;
   margin-top: 240px;
+  margin-bottom: 80px;
 }
 
 .direct-contact-container h1{
@@ -93,7 +94,7 @@ hr {
 }
 
 footer{
-position:absolute; 
+position:fixed; 
 left:0px;
 right:0px;
 bottom:0px;
@@ -103,7 +104,7 @@ bottom:0px;
 
   .direct-contact-container{
     max-width: 80%;
-    margin-top: 250px;
+    margin-top: 270px;
   }
 
   .direct-contact-container h1{

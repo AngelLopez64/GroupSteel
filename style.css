@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+@import url(//db.onlinewebfonts.com/c/8058c5fac0f4c6d0d692921f5637319a?family=BankGothic+Lt+BT);
 
 :root{
     --colorP: orange;
@@ -15,7 +16,7 @@
 
 body{
     background: url("./imagess/fondo.jpg");
-    background-size: 100% 105%;
+    background-size: 100% 120%;
     background-attachment: fixed;
 }
 
@@ -35,7 +36,7 @@ body{
 }
 
 .logo a span{
-    color: var(--Letras);
+    color: rgb(197, 188, 188);
     transition: all 0.3s ease;
 }
 
@@ -48,6 +49,7 @@ body{
     color: var(--Letras);
     font-size: 30px;
     padding: 7px;
+    font-family: "BankGothic Lt BT";
 }
 
 .contenedorr {
@@ -329,7 +331,7 @@ body{
     margin-left: 10%;
     display: inline-block;
     margin-top: 50px;
-    background: var(--colorS);
+    background: rgba(0, 0, 0, 0.5);
 }
 
 .razonesN h4{
@@ -342,6 +344,10 @@ body{
 }
 
 .razonN:hover{
+    background: var(--colorS);
+}
+
+.razon:hover{
     background: var(--colorS);
 }
 
@@ -359,6 +365,7 @@ body{
     margin-left: 5%;
     display: inline-block;
     margin-top: 50px;
+    background: rgba(0, 0, 0, 0.5);
 }
 
 .razonN1{
@@ -371,6 +378,7 @@ body{
     margin-left: 5%;
     display: inline-block;
     margin-top: 50px;
+    background: rgba(0, 0, 0, 0.5);
 }
 
 .razonesN span{
@@ -437,7 +445,7 @@ footer span a:hover{
 }
 
 .carousel__elemento img{
-    width: 70%;
+    width: 60%;
     border: 3px solid var(--colorP);
 }
 
@@ -555,6 +563,9 @@ footer span a:hover{
         width: 100%;
     }
 
+    .navbar .menu li a{
+        margin-left: 12px;
+    }
 }
 
 @media (max-width: 580px){
@@ -652,6 +663,10 @@ footer span a:hover{
 
     .navbar .max-width{
         justify-content: left;
+    }
+
+    .carousel__indicadores .glider-dot{
+        width: 20px;
     }
 }
 

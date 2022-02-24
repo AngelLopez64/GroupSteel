@@ -1,0 +1,73 @@
+footer{
+    position:fixed; 
+    left:0px;
+    right:0px;
+    bottom:0px;
+    }
+
+.capacitacion{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 290px;
+    margin-bottom: 100px;
+    font-family: 'Gothic A1', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.capacitacion h1{
+    color: var(--Letras);
+    font-size: 40px;
+    text-align: center;
+}
+
+.curso{
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    background: rgba(255, 128, 0, 0.5);
+    padding: 30px;
+    text-align: center;
+    margin-top: 50px;
+    border: 3px solid var(--Letras);
+}
+
+.curso h1{
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+
+.curso p{
+    color: var(--Letras);
+    font-size: 23px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+.curso a{
+    color: var(--Letras);
+    display: inline-block;
+    border: 3px solid var(--Letras);
+    padding: 15px;
+    font-size: 23px;
+}
+
+.curso a:hover{
+    color: var(--colorS);
+    background: var(--colorP);
+    border: 3px solid var(--colorS);
+}
+
+@media (max-width: 620px){
+    .capacitacion h1{
+        font-size: 30px;
+    }
+    .curso h1{
+        font-size: 26px;
+    }
+    .curso p{
+        font-size: 18px;
+    }
+    .curso a{
+        font-size: 18px;
+    }
+}

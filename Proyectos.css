@@ -1,0 +1,179 @@
+h1.title{
+    margin-top: 300px;
+    color: white;
+    text-align: center;
+    font-size: 45px;
+}
+
+.contenedor{
+    margin-bottom: 70px;
+}
+
+.contenedor img{
+    width: 100%;
+    height: 250px;
+    border: 2px solid var(--colorP);
+}
+
+.carousel__contenedor {
+	position: relative;
+}
+
+.carousel__contenedor h4{
+    font-size:25px;
+    margin-top: 100px;
+}
+
+.carousel__anterior,
+.carousel__siguiente,
+.carousel__anterior1,
+.carousel__siguiente1,
+.carousel__anterior2,
+.carousel__siguiente2,
+.carousel__anterior3,
+.carousel__siguiente3,
+.carousel__anterior4,
+.carousel__siguiente4,
+.carousel__anterior5,
+.carousel__siguiente5,
+.carousel__anterior6,
+.carousel__siguiente6,
+.carousel__anterior7,
+.carousel__siguiente7,
+.carousel__anterior9,
+.carousel__siguiente8 {
+	position: absolute;
+	display: block;
+	width: 30px;
+	height: 30px;
+	border: none;
+	top: calc(65% - 25px);
+	cursor: pointer;
+	line-height: 30px;
+	text-align: center;
+	background: none;
+	color: #fff;
+	opacity: 20%;
+}
+
+.carousel__anterior:hover,
+.carousel__siguiente:hover,
+.carousel__anterior1:hover,
+.carousel__siguiente1:hover,
+.carousel__anterior2:hover,
+.carousel__siguiente2:hover,
+.carousel__anterior3:hover,
+.carousel__siguiente3:hover,
+.carousel__anterior4:hover,
+.carousel__siguiente4:hover,
+.carousel__anterior5:hover,
+.carousel__siguiente5:hover,
+.carousel__anterior6:hover,
+.carousel__siguiente6:hover,
+.carousel__anterior7:hover,
+.carousel__siguiente7:hover,
+.carousel__anterior8:hover,
+.carousel__siguiente8:hover {
+	opacity: 100%;
+}
+
+.carousel__anterior,
+.carousel__anterior1,
+.carousel__anterior2,
+.carousel__anterior3,
+.carousel__anterior4,
+.carousel__anterior5,
+.carousel__anterior6,
+.carousel__anterior7,
+.carousel__anterior8 {
+	left: -30px;
+}
+
+.carousel__siguiente,
+.carousel__siguiente1,
+.carousel__siguiente2,
+.carousel__siguiente3,
+.carousel__siguiente4,
+.carousel__siguiente5,
+.carousel__siguiente6,
+.carousel__siguiente7,
+.carousel__siguiente8 {
+	right: -30px;
+}
+
+.carousel__lista,
+.carousel__lista1,
+.carousel__lista2,
+.carousel__lista3,
+.carousel__lista4,
+.carousel__lista5,
+.carousel__lista6,
+.carousel__lista7,
+.carousel__lista8 {
+	overflow: hidden;
+}
+
+.carousel__elemento,
+.carousel__elemento1,
+.carousel__elemento2,
+.carousel__elemento3,
+.carousel__elemento4,
+.carousel__elemento5 {
+	text-align: center;
+}
+
+.carousel__indicadores .glider-dot,
+.carousel__indicadores1 .glider-dot,
+.carousel__indicadores2 .glider-dot,
+.carousel__indicadores3 .glider-dot,
+.carousel__indicadores4 .glider-dot,
+.carousel__indicadores5 .glider-dot,
+.carousel__indicadores6 .glider-dot,
+.carousel__indicadores7 .glider-dot,
+.carousel__indicadores8 .glider-dot {
+	display: block;
+	width: 30px;
+	height: 4px;
+	background: var(--Letras);
+	opacity: .2;
+	border-radius: 0;
+}
+
+.carousel__indicadores .glider-dot:hover,
+.carousel__indicadores1 .glider-dot:hover,
+.carousel__indicadores2 .glider-dot:hover,
+.carousel__indicadores3 .glider-dot:hover,
+.carousel__indicadores4 .glider-dot:hover,
+.carousel__indicadores5 .glider-dot:hover,
+.carousel__indicadores6 .glider-dot:hover,
+.carousel__indicadores7 .glider-dot:hover,
+.carousel__indicadores8 .glider-dot:hover {
+	opacity: .5;
+}
+
+.carousel__indicadores .glider-dot.active,
+.carousel__indicadores1 .glider-dot.active,
+.carousel__indicadores2 .glider-dot.active,
+.carousel__indicadores3 .glider-dot.active,
+.carousel__indicadores4 .glider-dot.active,
+.carousel__indicadores5 .glider-dot.active,
+.carousel__indicadores6 .glider-dot.active,
+.carousel__indicadores7 .glider-dot.active,
+.carousel__indicadores8 .glider-dot.active {
+	opacity: 1;
+}
+
+
+@media (max-width: 960px){
+    .carousel__indicadores .glider-dot,
+    .carousel__indicadores1 .glider-dot,
+    .carousel__indicadores2 .glider-dot,
+    .carousel__indicadores3 .glider-dot,
+    .carousel__indicadores4 .glider-dot,
+    .carousel__indicadores5 .glider-dot,
+    .carousel__indicadores6 .glider-dot,
+    .carousel__indicadores7 .glider-dot,
+    .carousel__indicadores8 .glider-dot{
+        width: 15px;
+    }
+}
