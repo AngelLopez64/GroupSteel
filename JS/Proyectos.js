@@ -173,6 +173,56 @@ window.addEventListener('load', function(){
 			  }
 		]
 	});
+
+	new Glider(document.querySelector('.carousel__lista7'), {
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		dots: '.carousel__indicadores7',
+		arrows: {
+			prev: '.carousel__anterior7',
+			next: '.carousel__siguiente7'
+		},
+		responsive: [
+			{ 
+			  breakpoint: 768,
+			  settings: {
+				slidesToShow: 2,
+				slidesToScroll: 2
+			  }
+			},{ 
+				breakpoint: 1200,
+				settings: {
+				  slidesToShow: 4,
+				  slidesToScroll: 4
+				}
+			  }
+		]
+	});
+
+	new Glider(document.querySelector('.carousel__lista8'), {
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		dots: '.carousel__indicadores8',
+		arrows: {
+			prev: '.carousel__anterior8',
+			next: '.carousel__siguiente8'
+		},
+		responsive: [
+			{ 
+			  breakpoint: 768,
+			  settings: {
+				slidesToShow: 2,
+				slidesToScroll: 2
+			  }
+			},{ 
+				breakpoint: 1200,
+				settings: {
+				  slidesToShow: 4,
+				  slidesToScroll: 4
+				}
+			  }
+		]
+	});
 });
 
 
