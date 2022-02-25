@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
-@import url(//db.onlinewebfonts.com/c/8058c5fac0f4c6d0d692921f5637319a?family=BankGothic+Lt+BT);
 
 :root{
     --colorP: orange;
@@ -105,11 +104,6 @@ body{
     background-attachment: fixed;
     top: 0px;
 }
-.navbar.sticky{
-    background: url("./imagess/fondoL1.jpg");
-    background-size: 100% 100%;
-    background-attachment: fixed;
-}
 .navbar .max-width{
     max-width: 100%;
     height: 44px;
@@ -119,13 +113,6 @@ body{
     justify-content: center;
 }
 
-.navbar.sticky .logo a span.G{
-    color: var(--colorP);
-}
-
-.navbar.sticky .logo a span{
-    color: rgb(197, 188, 188);
-}
 .navbar .menu li{
     list-style: none;
     display: inline-block;
@@ -141,9 +128,6 @@ body{
 .navbar .menu li a:hover{
     color: var(--Letras);
 }
-.navbar.sticky .menu li a:hover{
-    color: var(--Letras);
-}
 
 .menu-btn{
     color: var(--Letras);
@@ -154,39 +138,6 @@ body{
 }
 
 /* Fin Menu */
-
-
-/* Scrool Up */
-
-.scroll-up-btn{
-    position: fixed;
-    height: 45px;
-    width: 42px;
-    background: var(--colorP);
-    right: 30px;
-    bottom: 10px;
-    text-align: center;
-    line-height: 45px;
-    color: var(--colorS);
-    z-index: 9999;
-    font-size: 30px;
-    border-radius: 6px;
-    border-bottom-width: 2px;
-    cursor: pointer;
-    opacity: 0;
-    pointer-events: none;
-    transition: all 0.3s ease;
-}
-.scroll-up-btn.show{
-    bottom: 30px;
-    opacity: 1;
-    pointer-events: auto;
-}
-.scroll-up-btn:hover{
-    filter: brightness(90%);
-}
-
-/* Fin Scroll Up */
 
 
 /* Nosotros */
