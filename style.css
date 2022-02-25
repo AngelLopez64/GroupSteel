@@ -119,8 +119,12 @@ body{
     justify-content: center;
 }
 
+.navbar.sticky .logo a span.G{
+    color: var(--colorP);
+}
+
 .navbar.sticky .logo a span{
-    color: var(--Letras);
+    color: rgb(197, 188, 188);
 }
 .navbar .menu li{
     list-style: none;
