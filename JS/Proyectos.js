@@ -223,6 +223,56 @@ window.addEventListener('load', function(){
 			  }
 		]
 	});
+
+	new Glider(document.querySelector('.carousel__lista9'), {
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		dots: '.carousel__indicadores9',
+		arrows: {
+			prev: '.carousel__anterior9',
+			next: '.carousel__siguiente9'
+		},
+		responsive: [
+			{ 
+			  breakpoint: 768,
+			  settings: {
+				slidesToShow: 2,
+				slidesToScroll: 2
+			  }
+			},{ 
+				breakpoint: 1200,
+				settings: {
+				  slidesToShow: 4,
+				  slidesToScroll: 4
+				}
+			  }
+		]
+	});
+
+	new Glider(document.querySelector('.carousel__lista10'), {
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		dots: '.carousel__indicadores10',
+		arrows: {
+			prev: '.carousel__anterior10',
+			next: '.carousel__siguiente10'
+		},
+		responsive: [
+			{ 
+			  breakpoint: 768,
+			  settings: {
+				slidesToShow: 2,
+				slidesToScroll: 2
+			  }
+			},{ 
+				breakpoint: 1200,
+				settings: {
+				  slidesToShow: 4,
+				  slidesToScroll: 4
+				}
+			  }
+		]
+	});
 });
 
 

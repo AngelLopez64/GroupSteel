@@ -41,7 +41,11 @@ h1.title{
 .carousel__anterior7,
 .carousel__siguiente7,
 .carousel__anterior8,
-.carousel__siguiente8 {
+.carousel__siguiente8,
+.carousel__anterior9,
+.carousel__siguiente9,
+.carousel__anterior10,
+.carousel__siguiente10  {
 	position: absolute;
 	display: block;
 	width: 30px;
@@ -73,7 +77,11 @@ h1.title{
 .carousel__anterior7:hover,
 .carousel__siguiente7:hover,
 .carousel__anterior8:hover,
-.carousel__siguiente8:hover {
+.carousel__siguiente8:hover,
+.carousel__anterior9:hover,
+.carousel__siguiente9:hover,
+.carousel__anterior10:hover,
+.carousel__siguiente10:hover {
 	opacity: 100%;
 }
 
@@ -85,7 +93,9 @@ h1.title{
 .carousel__anterior5,
 .carousel__anterior6,
 .carousel__anterior7,
-.carousel__anterior8 {
+.carousel__anterior8,
+.carousel__anterior9,
+.carousel__anterior10  {
 	left: -30px;
 }
 
@@ -97,7 +107,9 @@ h1.title{
 .carousel__siguiente5,
 .carousel__siguiente6,
 .carousel__siguiente7,
-.carousel__siguiente8 {
+.carousel__siguiente8,
+.carousel__siguiente9,
+.carousel__siguiente10 {
 	right: -30px;
 }
 
@@ -109,7 +121,9 @@ h1.title{
 .carousel__lista5,
 .carousel__lista6,
 .carousel__lista7,
-.carousel__lista8 {
+.carousel__lista8,
+.carousel__lista9,
+.carousel__lista10 {
 	overflow: hidden;
 }
 
@@ -121,7 +135,9 @@ h1.title{
 .carousel__elemento5,
 .carousel__elemento6,
 .carousel__elemento7,
-.carousel__elemento8 {
+.carousel__elemento8,
+.carousel__elemento9,
+.carousel__elemento10 {
 	text-align: center;
 }
 
@@ -133,7 +149,9 @@ h1.title{
 .carousel__indicadores5 .glider-dot,
 .carousel__indicadores6 .glider-dot,
 .carousel__indicadores7 .glider-dot,
-.carousel__indicadores8 .glider-dot {
+.carousel__indicadores8 .glider-dot,
+.carousel__indicadores9 .glider-dot,
+.carousel__indicadores10 .glider-dot {
 	display: block;
 	width: 30px;
 	height: 4px;
@@ -150,7 +168,9 @@ h1.title{
 .carousel__indicadores5 .glider-dot:hover,
 .carousel__indicadores6 .glider-dot:hover,
 .carousel__indicadores7 .glider-dot:hover,
-.carousel__indicadores8 .glider-dot:hover {
+.carousel__indicadores8 .glider-dot:hover,
+.carousel__indicadores9 .glider-dot:hover,
+.carousel__indicadores10 .glider-dot:hover {
 	opacity: .5;
 }
 
@@ -162,7 +182,9 @@ h1.title{
 .carousel__indicadores5 .glider-dot.active,
 .carousel__indicadores6 .glider-dot.active,
 .carousel__indicadores7 .glider-dot.active,
-.carousel__indicadores8 .glider-dot.active {
+.carousel__indicadores8 .glider-dot.active,
+.carousel__indicadores9 .glider-dot.active,
+.carousel__indicadores10 .glider-dot.active  {
 	opacity: 1;
 }
 
@@ -176,7 +198,9 @@ h1.title{
     .carousel__indicadores5 .glider-dot,
     .carousel__indicadores6 .glider-dot,
     .carousel__indicadores7 .glider-dot,
-    .carousel__indicadores8 .glider-dot{
+    .carousel__indicadores8 .glider-dot,
+    .carousel__indicadores9 .glider-dot,
+    .carousel__indicadores10 .glider-dot{
         width: 15px;
     }
 }
@@ -190,7 +214,9 @@ h1.title{
     .carousel__indicadores5 .glider-dot,
     .carousel__indicadores6 .glider-dot,
     .carousel__indicadores7 .glider-dot,
-    .carousel__indicadores8 .glider-dot{
+    .carousel__indicadores8 .glider-dot,
+    .carousel__indicadores9 .glider-dot,
+    .carousel__indicadores10 .glider-dot{
         display: none;
     }
 }
