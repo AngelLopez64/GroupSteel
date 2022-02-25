@@ -7,14 +7,5 @@ window.addEventListener('load', function(){
 			prev: '.carousel__anterior',
 			next: '.carousel__siguiente'
 		},
-		responsive: [
-			{ 
-			  breakpoint: 1980,
-			  settings: {
-				slidesToShow: 1,
-				slidesToScroll: 1
-			  }
-			}
-		]
 	});
 });

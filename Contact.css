@@ -35,11 +35,8 @@
   margin-left: 62px;
 }
 
+.gmail,
 .phone {
-  margin-left: 53px;
-}
-
-.gmail {
   margin-left: 53px;
 }
 
@@ -120,10 +117,7 @@ bottom:0px;
     margin-left: 42px;
   }
   
-  .phone {
-    margin-left: 33px;
-  }
-  
+  .phone,
   .gmail {
     margin-left: 33px;
   }

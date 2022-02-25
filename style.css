@@ -15,7 +15,7 @@
 
 body{
     background: url("./imagess/fondo.jpg");
-    background-size: 100% 120%;
+    background-size: 100% 100%;
     background-attachment: fixed;
 }
 
@@ -298,14 +298,8 @@ body{
     display: inline-block;
 }
 
-.razonN:hover{
-    background: var(--colorS);
-}
-
-.razon:hover{
-    background: var(--colorS);
-}
-
+.razonN:hover,
+.razon:hover,
 .razonN1:hover{
     background: var(--colorS);
 }
@@ -473,81 +467,64 @@ footer span a:hover{
 /* Resoluciones */
 
 @media (max-width: 1280px) {
-
     .razon{
         height: 410px;
     }
-
     .razonN{
         height: 370px;
     }
-
     .razones img{
         height: 80px;
     }
 }
 @media (max-width: 952px) {
-    
     .card{
         width: 90%;
         margin-left: 5%;
     }
-
-
     .slider-frame{
         float: none;
         margin: auto;
         margin-top: 30px;
     }
-
     .razon{
         width: 35%;
         margin-left: 10%;
         height: 390px;
     }
-
     .razonN{
         height: 510px;
     }
-
     .razonN1{
         height: 590px;
     }
-
     .carousel__elemento img{
         width: 100%;
     }
-
     .navbar .menu li a{
         margin-left: 12px;
     }
 }
 
-@media (max-width: 580px){
-    
+@media (max-width: 580px){  
     .logo a{
         font-size:45px;
     }
-
     .logo a span.G{
         font-size: 75px;
     }
-
     .contenedorr{
         font-size: 17px;
         width: 310px;
         font-weight: 600;
     }
-    
     .menu-btn{
         display: block;
         z-index: 999;
     }
-
     .menu-btn i.active:before{
         content: "\f00d";
     }
-
     .navbar .menu{
         position: fixed;
         height: 100%;
@@ -559,67 +536,53 @@ footer span a:hover{
         padding-top: 50px;
         transition: all 0.3s ease;
     }
-
     .navbar .menu.active{
         left: 0;
     }
-
     .navbar .menu li{
         display: block;
     }
-
     .navbar .menu li a{
         display: inline-block;
         margin: 20px 0;
         font-size: 25px;
     }
-
     .razon{
         width: 80%;
         margin-left: 10%;
         height: 310px;
     }
-
     .razonN{
         width: 90%;
         height: 480px;
     }
-
     .razonN1{
         height: 940px;
     }
-
     .card{
         width: 90%;
         margin-left: 5%;
         margin: auto;
         margin-top: 250px;
     }
-
     .card p{
         font-size: 18px;
     }
-
     .slider-frame{
         margin-top: 0px;
     }
-
     .slider-frame ul{
         width: 400%;
     }
-
     .navbar .menu li a{
         color: var(--Letras);
     }
-
     .navbar .menu li a:hover{
         color: var(--colorP);
     }
-
     .navbar .max-width{
         justify-content: left;
     }
-
     .carousel__indicadores .glider-dot{
         width: 20px;
     }
