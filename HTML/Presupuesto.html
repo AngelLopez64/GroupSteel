@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Group Steel</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="Capacitacion.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/Presupuesto.css">
 </head>
 <body>
     
@@ -41,19 +41,23 @@
     <!-- Fin Logo Principal -->
 
 
-    <!-- Capacitacion -->
+    <!-- Presupuesto -->
 
-    <div class="capacitacion">
-        <h1>Aprende todo sobre la construcción Steel Frame</h1>
+    <section class="form_wrap">
+        <form class="form" action="https://formspree.io/f/mrgjqnbp"
+      method="POST">     
+          <div class="form_container">
+              <h2 class="form_title">Pedi tu presupuesto</h2>
+              <input type="text" class="form_input" placeholder="Nombre y apellido" name="Nombre y apellido">
+              <input type="email" class="form_input" placeholder="Email" name="Email">
+              <input type="text" class="form_input" placeholder="Ubicacion de la obra" name="Ubicacion de la obra">
+              <textarea class="form_input form_input--message" placeholder="Consulta" name="Consulta"></textarea>
+              <input type="submit" value="Enviar" class="form_cta">
+          </div>
+      </form>
+    </section>
 
-        <div class="curso">
-            <h1>Curso de Proceso constructivo <br>Steel Frame</h1>
-            <p>Fundaciones, estructurado, aislaciones, techos, y mucho más, en un solo curso completo con visitas a obra.</p>
-            <a href="Contact.html">Contactanos</a>
-        </div>
-    </div>
-
-    <!-- Fin Capacitacion -->
+    <!-- Fin Presupuesto -->
 
 
     <!-- Footer -->
@@ -64,9 +68,8 @@
 
     <!-- Fin Footer -->
 
-    <script src="./JS/modelos.js"></script>
-    <script src="./JS/MenuCel.js" crossorigin="anonymous"></script>
-	<script src="./JS/app.js"></script>
-
+    <script src="../JS/modelos.js"></script>
+    <script src="../JS/MenuCel.js" crossorigin="anonymous"></script>
+	<script src="../JS/app.js"></script>
 </body>
 </html>
